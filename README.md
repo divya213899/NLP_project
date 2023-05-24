@@ -70,3 +70,17 @@ Regression model achieved an accuracy of 98.9%, while the Passive
 Aggressive Classifier achieved an accuracy of 99.5%. These results
 indicate that both models are effective in distinguishing fake news
 from genuine news.
+
+# CONCLUSION
+In conclusion, natural language processing (NLP) techniques have been
+utilized to develop a model to distinguish between fake and genuine news
+articles. The project involved data pre-processing steps such as
+tokenization, stemming, and stop word removal. The dataset was split into
+training and testing sets, and Tfidf Vectorizer was used for vectorization.
+Two machine learning models, Logistic Regression and Passive
+Aggressive Classifier, were trained and evaluated based on their accuracy
+score. The model achieved a high accuracy score, indicating that NLP
+techniques can effectively detect fake news. Further improvements can be
+made by incorporating more advanced NLP techniques and increasing the
+size of the dataset. Overall, this project demonstrates the potential of NLP
+in the field of journalism and information integrity.
