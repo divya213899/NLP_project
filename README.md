@@ -13,7 +13,7 @@ to build the classification model. The accuracy of the models is evaluated
 using the accuracy score metric from the scikit-learn library. The model can
 help identify fake news, which can be used to counter the spread of
 misinformation.
-#OBJECTIVE
+# OBJECTIVE
 The objective of this project is to develop a natural language
 processing model using Python that can accurately detect whether a
 news article is fake or genuine. The model will be trained on a dataset
@@ -49,27 +49,32 @@ reduce the impact of false information on individuals and society.
 # METHODOLOGY
 The methodology for the project of natural language processing to
 distinguish fake news and genuine news involves the following steps:
-1. Data Collection: The first step is to collect the data in the form of
-fake news and genuine news articles. For this project, we have used
-two datasets: Fake.csv and True.csv. 2. Data Pre-processing: In this
-step, we have performed various pre-processing steps to clean and
-prepare the data for analysis. This includes tokenization, stemming,
-stop words removal, and concatenation of the fake and genuine news
-articles. 3. Data Splitting: The next step is to split the dataset into
-training and testing sets. We have used a 75:25 split ratio for this
-project. 4. Vectorization: We have used the TF-IDF vectorization
-technique to convert the text data into numerical form, which can be
-used for analysis by machine learning algorithms. 5. Building of ML
-Models: We have used two machine learning algorithms - Logistic
-Regression and Passive Aggressive Classifier - to build models for
-distinguishing fake news from genuine news. 6. Model Evaluation:
-Finally, we have evaluated the performance of both models using
-accuracy score as the evaluation metric. The output of the code
-includes the accuracy scores for both models. The Logistic
-Regression model achieved an accuracy of 98.9%, while the Passive
-Aggressive Classifier achieved an accuracy of 99.5%. These results
-indicate that both models are effective in distinguishing fake news
-from genuine news.
+1. Data Collection :
+    The first step is to collect the data in the form of
+    fake news and genuine news articles. For this project, we have used
+    two datasets: Fake.csv and True.csv.
+2. Data Pre-processing: In this step, we have performed various pre-processing steps to clean and
+    prepare the data for analysis. This includes tokenization, stemming,
+    stop words removal, and concatenation of the fake and genuine news
+    articles.
+   
+4. Data Splitting: The next step is to split the dataset into
+    training and testing sets. We have used a 75:25 split ratio for this
+    project.
+5. Vectorization: We have used the TF-IDF vectorization technique to convert the text data into numerical form, which can be
+    used for analysis by machine learning algorithms.
+6. Building of ML Models: We have used two machine learning algorithms - Logistic
+    Regression and Passive Aggressive Classifier - to build models for
+    distinguishing fake news from genuine news.
+7. Model Evaluation: Finally, we have evaluated the performance of both models using
+    accuracy score as the evaluation metric. The output of the code
+    includes the accuracy scores for both models. The Logistic
+    Regression model achieved an accuracy of 98.9%, while the Passive
+    Aggressive Classifier achieved an accuracy of 99.5%. These results
+    indicate that both models are effective in distinguishing fake news
+    from genuine news.
+   
+    
 
 # CONCLUSION
 In conclusion, natural language processing (NLP) techniques have been
@@ -84,3 +89,5 @@ techniques can effectively detect fake news. Further improvements can be
 made by incorporating more advanced NLP techniques and increasing the
 size of the dataset. Overall, this project demonstrates the potential of NLP
 in the field of journalism and information integrity.
+
+
